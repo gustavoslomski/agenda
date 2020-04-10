@@ -1,0 +1,49 @@
+<html>
+    <head>
+		<title>CADASTRO</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+		<style>
+			body{
+				background-color: #003366;
+			}
+		</style>
+    </head>
+    <body>
+		<div style="margin: 10%; background-color:  #669999; border-radius: 2%;">
+			<form method="POST" action="cadastrando.php">
+				<h1 class="text-center text-light pt-2">CADASTRE-SE</h1>
+				<div class="form-group">
+					<div class="col-md-6 offset-md-3">
+						<label>NOME</label>
+						<input type="text" required name="nome" class="form-control" placeholder="Nome Completo">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-6 offset-md-3">
+						<label>IDADE</label>
+						<input type="number" required name="idade" class="form-control" placeholder="Idade">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-6 offset-md-3">
+						<label>EMAIL</label>
+						<input type="email" required name="email" class="form-control" placeholder="Seu melhor e-mail">
+					</div>
+				</div>
+				<div class="form-group">
+					<div class="col-md-6 offset-md-3">
+						<label>SENHA</label>
+						<input type="password" required name="senha" class="form-control" placeholder="Senha">
+						<small id="emailHelp" class="form-text">NÃO UTILIZE DADOS PESSOAIS
+</small>
+					</div>
+				</div>
+				<p class="text-center">Ja possui uma conta? <a class = "text-light" href="login.php">Faça login</a></p>
+				<div class="col-md-6 offset-md-3 pb-2 ">
+					<input type="submit" value="Cadastrar" class="btn btn-danger" style = "width: 100%"/>
+				</div>
+			</form>
+		</div>
+    </body>
+</html>

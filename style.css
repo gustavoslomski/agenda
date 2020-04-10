@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+body{
+	background-color: #fff;
+}
+h1, h2, h3, label, p, a, input, th{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+}
+::--webkit-input-placeholder{
+	font-family: 'Bebas Neue', cursive;
+}
+::-moz-placeholder {
+	font-family: 'Bebas Neue', cursive;
+
+}
+p a{
+	text-decoration: underline;
+}
+#botao{
+	background-color: #b4b6bf;
+}
+.esconder{
+	visibility: hidden;
+}
+small{
+	font-family: 'Bebas Neue', cursive;
+}
+th{
+	font-size: 25px;
+}

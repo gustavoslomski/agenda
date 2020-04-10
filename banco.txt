@@ -1,0 +1,3 @@
+Olá, a tabela contato do banco de dados (na qual armazenamos os contatos cadastrados) tm uma coluna a mais -id_tabela;
+ela serve para o contato cadastrado tem uma relação com o usuario logado, caso contrário eu poderia cadastrar um contato
+e quando outro usuario fizesse login, ele também teria acesso a esse contato. Segue print da estrutura do banco (print-banco.png).
